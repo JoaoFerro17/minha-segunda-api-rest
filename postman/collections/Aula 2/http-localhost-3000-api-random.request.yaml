@@ -1,0 +1,14 @@
+$kind: http-request
+name: http://localhost:3000/api/random
+url: http://localhost:3000/api/me
+method: GET
+headers:
+  - key: Content-Type
+    value: application/json
+  - key: Authorization
+    value: Bearer token...
+    disabled: true
+body:
+  type: json
+  content: ""
+order: 1773428221194
